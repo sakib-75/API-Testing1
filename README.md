@@ -1,4 +1,19 @@
 # api-testing1
 Booking - (Create, Get, Auth, Token, Update, Delete)
 
-<h2><a href="https://api-testing-report1-sakib.netlify.app/"> Click here to see the report </a> </h2>
+
+[Click here to see the report](https://api-testing-report1-sakib.netlify.app/)
+
+#### Command
+
+1) Newman Install Command: npm install -g newman
+
+2) Report Install: 
+   - npm install -g newman-reporter-html
+   - npm install -g newman-reporter-htmlextra
+
+3) Report run:
+   - newman run CollectionName.json -e EnvironmentName.json
+   - newman run CollectionName.json -e EnvironmentName.json -r cli,html
+   - newman run CollectionName.json -e EnvironmentName.json -r cli,htmlextra 
+   - newman run CollectionName.json -e EnvironmentName.json -r cli,htmlextra --insecure
