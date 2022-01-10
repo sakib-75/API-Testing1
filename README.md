@@ -6,7 +6,8 @@ Booking - (Create, Get, Auth, Token, Update, Delete)
 
 #### Command
 
-1) Newman Install Command: npm install -g newman
+1) Newman Install Command: 
+   - npm install -g newman
 
 2) Report Install: 
    - npm install -g newman-reporter-html
