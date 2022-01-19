@@ -1,7 +1,7 @@
 ## API Testing Report
 
-#### [Booking - API Testing Report](https://api-testing-report1-sakib.netlify.app/)
-#### [Student Details - API Testing Report](https://api-testing-report2-sakib.netlify.app/)
+#### [Booking](https://api-testing-report1-sakib.netlify.app/)
+#### [Student Details](https://api-testing-report2-sakib.netlify.app/)
 
 ## Method
 - POST
