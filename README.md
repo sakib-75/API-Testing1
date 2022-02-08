@@ -11,15 +11,14 @@
 
 ## Command
 
-1) **Newman Install Command:**
+1) **Newman Install:**
    - npm install -g newman
 
-2) **Report Install Command:**
+2) **Reporter Install:**
    - npm install -g newman-reporter-html
    - npm install -g newman-reporter-htmlextra
 
-3) **Report Run Command:**
+3) **Report Generate:**
    - newman run CollectionName.json -e EnvironmentName.json
    - newman run CollectionName.json -e EnvironmentName.json -r cli,html
-   - newman run CollectionName.json -e EnvironmentName.json -r cli,htmlextra 
-   - newman run CollectionName.json -e EnvironmentName.json -r cli,htmlextra --insecure
+   - newman run CollectionName.json -e EnvironmentName.json -r cli,htmlextra
