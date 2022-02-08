@@ -19,6 +19,5 @@
    - npm install -g newman-reporter-htmlextra
 
 3) **Report Generate:**
-   - newman run CollectionName.json -e EnvironmentName.json
-   - newman run CollectionName.json -e EnvironmentName.json -r cli,html
-   - newman run CollectionName.json -e EnvironmentName.json -r cli,htmlextra
+   - newman run "..\CollectionName.json" -e "..\EnvironmentName.json" -r cli,html
+   - newman run "..\CollectionName.json" -e "..\EnvironmentName.json" -r cli,htmlextra 
